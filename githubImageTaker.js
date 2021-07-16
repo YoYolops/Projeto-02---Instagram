@@ -64,10 +64,10 @@ async function imgTagCreator(nicksList,
     }
 }
 
-imgTagCreator(githubUserNames, "feed-post", 1, false)
+imgTagCreator(githubUserNames, "feed-post", 1, "posted-image")
 imgTagCreator(gbUserNamesToSmallImages, "post-white-circle", 0, "image-itself")
 imgTagCreator(gbUserNamesToSmallImages, "story-ico", 0, false)
-imgTagCreator(gbUserNamesToSmallImages, "suggested-profile-left-section", 0, "suggested-profile-pic")
+imgTagCreator(gbUserNamesToSmallImages, "suggested-profile-pic-link", 0, "suggested-profile-pic")
 
 
 // Notas Importantes:
