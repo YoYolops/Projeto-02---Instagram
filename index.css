@@ -35,6 +35,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 50;
 }
 
 .top-bar-centralizer {
@@ -165,6 +166,7 @@ body {
     padding: 10px;
     margin-bottom: 24px;
     overflow: hidden;
+    position: relative;
 }
 
 .story-container {
@@ -215,6 +217,16 @@ body {
     width: 56px;
     height: 56px;
     border-radius: 28px;
+}
+
+ion-icon {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 16px;
+    color: rgba(255,255,255) !important;
+    border-radius: 13px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .feed-container {
